@@ -1,1 +1,4 @@
 # 260-6
+For this lab, I separately tested the timer (Part 1), PWM (Part 2), and ADC (Part 3) features of the STM microcontroller. Then, I combined all three concepts (Part 4), having a timer trigger the ADC sampling from three analog inputs and using those input values as PWM outputs to the tri-color RGB LED. I also had three single-color LEDs showing the top 3-bits of one of the ADC values.
+Specifications
+When I had the timer trigger the ADC sampling from the three analog inputs, the system was able to efficiently convert these inputs into PWM signals to control the tri-color RGB LED. The three single-color LEDs displaying the top 3-bits of one of the ADC values provided a clear visual representation of the data being processed. This integration demonstrated the microcontroller’s capability to handle multiple tasks simultaneously, which is crucial for real-time applications.
